@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T15:50:38.520Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3S6-57Uc5KnSGQeTlVd9" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T15:54:50.110Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="O3qQASmTNmlFmAvA7MEQ" version="15.3.2" type="github">
   <diagram id="7TBFc90xIZm4mAK6cZO1" name="Page-1">
-    <mxGraphModel dx="4417" dy="3444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3836" dy="3112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -697,6 +697,73 @@
         </mxCell>
         <mxCell id="6-pes1iWoZFtjeqS15P8-48" value="isRememberMe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1230" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-49" target="6-pes1iWoZFtjeqS15P8-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-49" target="6-pes1iWoZFtjeqS15P8-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-49" value="SpEL" style="ellipse;whiteSpace=wrap;html=1;rounded=0;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="965" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-52" value="@PreAuthorize" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="975" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-54" target="6-pes1iWoZFtjeqS15P8-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1490" y="975" />
+              <mxPoint x="-1490" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-54" value="@PostAuthorize" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-55" target="6-pes1iWoZFtjeqS15P8-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1330" y="1195" />
+              <mxPoint x="-1330" y="1195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-55" value="@PreFilter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="1135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-57" value="@PostFilter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="1195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-58" target="6-pes1iWoZFtjeqS15P8-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-58" value="used to create expression that will check if method can be executed" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-60" target="6-pes1iWoZFtjeqS15P8-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-60" value="used to create expression that will check if method can be executed" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-62" target="6-pes1iWoZFtjeqS15P8-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-62" value="used to filter collections based on security&#xa;rules" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1550" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-64" value="@PreAuthorize(&quot;hasRole(&#39;ROLE_EMPLOYEES_CREATE&#39;) || &#39;TEST&#39;.equals(#employee.getFirstName())&quot;)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2390" y="940" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-66" target="6-pes1iWoZFtjeqS15P8-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-66" value="used to filter collections based on security&#xa;rules" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-68" value="@PreFilter(&quot;hasRole(&#39;ROLE_CUSTOMERS_QA&#39;) &amp;&amp; filterObject.firstName.equals(&#39;TEST’)”)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2130" y="1165" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
