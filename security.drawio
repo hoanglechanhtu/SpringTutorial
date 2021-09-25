@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T15:43:20.488Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="nvznq2Xf9qwJdDACIJdX" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T15:49:49.287Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ZPgJ3kO62xl-JtuLg4Ls" version="15.3.2" type="github">
   <diagram id="7TBFc90xIZm4mAK6cZO1" name="Page-1">
-    <mxGraphModel dx="2588" dy="2872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4075" dy="3249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,6 +134,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IurQyIZ5Klj650r5f6Mg-33" target="6-pes1iWoZFtjeqS15P8-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="1280" />
+              <mxPoint x="2611" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IurQyIZ5Klj650r5f6Mg-33" value="Password Encoders" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1430" y="1060" width="260" height="60" as="geometry" />
         </mxCell>
@@ -194,6 +202,11 @@
         <mxCell id="IurQyIZ5Klj650r5f6Mg-49" value="@Secured annotation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-613" y="650" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IurQyIZ5Klj650r5f6Mg-50" target="6-pes1iWoZFtjeqS15P8-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-990" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IurQyIZ5Klj650r5f6Mg-50" value="@PreAuthorize annotation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-613" y="710" width="200" height="60" as="geometry" />
         </mxCell>
@@ -202,6 +215,9 @@
         </mxCell>
         <mxCell id="IurQyIZ5Klj650r5f6Mg-52" value="JSR 250 annotations" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-613" y="770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IurQyIZ5Klj650r5f6Mg-53" target="6-pes1iWoZFtjeqS15P8-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IurQyIZ5Klj650r5f6Mg-53" value="@RolesAllowed" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-893" y="770" width="200" height="60" as="geometry" />
@@ -625,8 +641,53 @@
         <mxCell id="6-pes1iWoZFtjeqS15P8-23" value="Compare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2130" y="1535" width="260" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-25" target="6-pes1iWoZFtjeqS15P8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-25" target="6-pes1iWoZFtjeqS15P8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6-pes1iWoZFtjeqS15P8-25" value="DelegatingPasswordEncoder," style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="2481" y="1330" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-27" target="6-pes1iWoZFtjeqS15P8-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-27" value="which uses one of the&#xa;selected PasswordEncoder to encode password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="1470" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-29" value="list of provided passwords&lt;br&gt;decoders to verify password upon login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="1580" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-31" value="provides flexibility and ability to&#xa;easily switch between PasswordEncoders while keeping backward compatibility,&#xa;for already stored hash values of passwords" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2891" y="1330" width="259" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-34" target="6-pes1iWoZFtjeqS15P8-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6-pes1iWoZFtjeqS15P8-34" target="6-pes1iWoZFtjeqS15P8-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-34" value="allows you to specify, conditions under which user is&#xa;allowed to execute method, with usage of SpEL expressions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="710" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-35" value="@PreAuthorize(&quot;hasRole(&#39;ROLE_EMPLOYEES_CREATE&#39;) &amp;&amp; isAuthenticated() &amp;&amp; !isAnonymous()&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="710" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-38" value="allows you to specify list of&#xa;required roles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="770" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-40" value="hasRole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-43" value="hasAnyRole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-44" value="hasAuthority" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pes1iWoZFtjeqS15P8-45" value="hasAuthority" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="390" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
