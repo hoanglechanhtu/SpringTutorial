@@ -17,3 +17,5 @@
 
 ## Spring security
 ![security drawio](https://user-images.githubusercontent.com/16283386/134777933-3517ead1-af2a-4eab-807f-ce7d85399b24.png)
+## Spring rest
+![spring_rest drawio](https://user-images.githubusercontent.com/16283386/135123435-a7bfdb3f-e5e1-4817-bef2-22dc7a3799fa.png)
