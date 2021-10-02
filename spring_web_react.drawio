@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T13:44:41.018Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.4.1" etag="-szckwf-EaUiuMjHbntl" type="github"><diagram id="Zjspywo3iNeOEtL-da7U">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-02T13:47:49.652Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ERJTQUZxZ8hPmPi-YOMx" version="15.4.1" type="github">
+  <diagram id="Zjspywo3iNeOEtL-da7U" name="Page-1">
+    <mxGraphModel dx="736" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-2" target="KedZDEM8ajZNvWBPK_Q0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-2" value="Spring WebFlux" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-3" target="KedZDEM8ajZNvWBPK_Q0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-3" value="Definition" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-5" value="Build on Reactive Stram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-7" value="Runs on such servers as Netty, Undertow, and Servlet 3.1 + containers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-8" value="Runs on such servers as Netty, Undertow, and Servlet 3.1 + containers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-9" value="Non-blocking server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
