@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T13:47:49.652Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ERJTQUZxZ8hPmPi-YOMx" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T13:47:52.996Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="gFEfA8cWu1FrXCyhk7i6" version="15.4.1" type="github">
   <diagram id="Zjspywo3iNeOEtL-da7U" name="Page-1">
     <mxGraphModel dx="736" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="670" y="420" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KedZDEM8ajZNvWBPK_Q0-8" value="Runs on such servers as Netty, Undertow, and Servlet 3.1 + containers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="300" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KedZDEM8ajZNvWBPK_Q0-9" value="Non-blocking server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="480" width="160" height="60" as="geometry" />
