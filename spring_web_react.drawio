@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T13:47:52.996Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="gFEfA8cWu1FrXCyhk7i6" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T16:42:01.058Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="HVQgxjapYUDq2GafWVJq" version="15.4.1" type="github">
   <diagram id="Zjspywo3iNeOEtL-da7U" name="Page-1">
-    <mxGraphModel dx="736" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1567" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,12 @@
           <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KedZDEM8ajZNvWBPK_Q0-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-3" target="KedZDEM8ajZNvWBPK_Q0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-3" target="KedZDEM8ajZNvWBPK_Q0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-3" target="KedZDEM8ajZNvWBPK_Q0-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KedZDEM8ajZNvWBPK_Q0-3" value="Definition" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
@@ -27,6 +33,69 @@
         </mxCell>
         <mxCell id="KedZDEM8ajZNvWBPK_Q0-9" value="Non-blocking server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-12" target="KedZDEM8ajZNvWBPK_Q0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-12" value="Why" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-14" value="Non-blocking web stack to handle concurrency&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="590" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-16" value="With a small number of threads and scale with fewer hardware resources" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="650" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-17" target="KedZDEM8ajZNvWBPK_Q0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-17" value="Servlet 3.1 did prodive an API for non-blocking IO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="710" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-18" value="Using it leads away from the rest of the Servlet API, where concontacts are synchronous(Filter, Servlet) or blocking(getParameter, getPart)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="710" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-20" value="Functional programming" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="770" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-22" target="KedZDEM8ajZNvWBPK_Q0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-22" target="KedZDEM8ajZNvWBPK_Q0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-22" value="Reactive" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-24" target="KedZDEM8ajZNvWBPK_Q0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-24" value="Reacting to change" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="870" y="130" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-26" value="Network components reacting to IO events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="130" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-28" value="UI components reacting to mouse events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-29" value="Non-blocking are reactive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="70" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KedZDEM8ajZNvWBPK_Q0-30" target="KedZDEM8ajZNvWBPK_Q0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-30" value="Non-blocking back pressure" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-60" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-32" value="Blocking calls serve as a natural form of back pressure that force the caller to wait" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-60" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-34" value="Blocking calls serve as a natural form of back pressure that force the caller to wait" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-120" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KedZDEM8ajZNvWBPK_Q0-35" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;open sans&amp;#34; , sans-serif ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;In non-blocking code, it becomes important to control the rate of events so that a fast producer does not overwhelm its destination.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-180" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
